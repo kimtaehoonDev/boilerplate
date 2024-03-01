@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: local
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+---
+### Local 운영환경 ###
+spring:
+  config:
+    activate:
+      on-profile: local
