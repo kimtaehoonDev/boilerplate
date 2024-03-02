@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Import;
 
-// TODO 4. 테스트 작성
 @Import({ScanningPropertiesConfig.class})
 @SpringBootTest
 class TestPropertiesTest {
