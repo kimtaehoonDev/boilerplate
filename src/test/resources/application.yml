@@ -1,5 +1,3 @@
-# TODO 2. Test 환경에서 application.yml을 세팅한다.
-# 아래 세팅은 테스트 케이스를 실행할 때, data.sql이 실행되지 않으며, 로그를 보여주도록 하는 설정이다.
 spring:
   sql:
     init:
