@@ -22,6 +22,11 @@ repositories {
 }
 
 dependencies {
+	// TODO 1. 의존성을 추가한다. 이 때, 문서를 확인하고 버전을 맞춘다.
+	// Swagger 의존성
+	// https://springdoc.org/#migrating-from-springfox
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
+
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
