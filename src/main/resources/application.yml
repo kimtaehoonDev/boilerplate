@@ -7,6 +7,11 @@ spring:
     hibernate:
       ddl-auto: none
 
+# TODO 2. yml 파일에 변수들을 입력한다
+test:
+  str: 문자열
+  ary: [ 1, 10, 100 ]
+
 ---
 ### Local 운영환경 ###
 spring:
