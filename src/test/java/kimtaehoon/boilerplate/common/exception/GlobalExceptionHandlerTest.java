@@ -18,7 +18,6 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.MissingRequestCookieException;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
 
-// TODO 5. 각 예외들의 결과가 적절하게 나오는지 테스트를 한다.
 @ExtendWith(MockitoExtension.class)
 class GlobalExceptionHandlerTest {
 

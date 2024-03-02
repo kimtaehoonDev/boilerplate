@@ -3,7 +3,6 @@ package kimtaehoon.boilerplate.common.exception;
 import lombok.Getter;
 import org.springframework.http.HttpStatus;
 
-// TODO 1. ErrorCode 를 만든다.
 @Getter
 public enum ErrorCode {
 

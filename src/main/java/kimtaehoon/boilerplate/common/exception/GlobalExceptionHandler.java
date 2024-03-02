@@ -15,7 +15,6 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 import org.springframework.web.server.UnsupportedMediaTypeStatusException;
 import org.springframework.web.servlet.NoHandlerFoundException;
 
-// TODO 4. GlobalExceptionHandler 클래스에 각 예외들을 처리하는 로직을 구현한다.
 @RestControllerAdvice
 @Slf4j
 public class GlobalExceptionHandler {

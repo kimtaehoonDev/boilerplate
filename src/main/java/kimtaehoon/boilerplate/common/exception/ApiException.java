@@ -2,7 +2,6 @@ package kimtaehoon.boilerplate.common.exception;
 
 import lombok.Getter;
 
-// TODO 2. ApiException 을 생성한다.
 @Getter
 public class ApiException extends RuntimeException {
 

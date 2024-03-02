@@ -5,7 +5,6 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-// TODO 3. ErrorResponse 클래스를 생성한다.
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
 public class ErrorResponse {
