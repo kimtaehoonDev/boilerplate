@@ -7,6 +7,10 @@ spring:
     hibernate:
       ddl-auto: none
 
+test:
+  str: 문자열
+  ary: [ 1, 10, 100 ]
+
 ---
 ### Local 운영환경 ###
 spring:
